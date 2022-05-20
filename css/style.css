@@ -40,3 +40,23 @@ footer {
     font-size: 0.9rem;
 }
 
+#number {
+	margin: 0px;
+	padding: 0px;
+	width: 120px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+
+#button {
+	margin: 0px;
+	padding: 0px;
+	width: 70px;
+	height: 30px;
+	border: 0.15vw solid #0073c3;
+	border-radius: 10px;
+	background-color: #222222;
+	color: #eeeeee;
+}
+
