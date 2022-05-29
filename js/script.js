@@ -1,15 +1,15 @@
 function is_prime(num) {
 	if(num < 2) {
-		return 0;
+		return false;
 	} else {
 		let i;
 		for(i = 2; i < parseInt(Math.sqrt(num)) + 1; i++) {
 			if (num % i == 0) {
-				return 0;
+				return false;
 			}
 		}
 	}
-	return 1;
+	return true;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
